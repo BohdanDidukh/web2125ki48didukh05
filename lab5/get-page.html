@@ -1,0 +1,39 @@
+<!-- get-page.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GET Request</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>GET Page</h1>
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/get-page.html">GET Page</a></li>
+                <li><a href="/post-page.html">POST Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Send GET request</h2>
+            <form id="get-form">
+                <label for="get-name">Name:</label>
+                <input type="text" id="get-name" name="name" required>
+                <button type="submit">Send GET</button>
+            </form>
+            <div id="get-result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Roman Veskera</p>
+    </footer>
+
+    <script src="js/ajax.js"></script>
+</body>
+</html>
