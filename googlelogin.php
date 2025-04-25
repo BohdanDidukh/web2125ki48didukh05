@@ -5,9 +5,7 @@ session_start();
 
 // Конфіг Google OAuth
 $google_client = new Google_Client();
-$google_client->setClientId('341535977204-6vsum5n0rtv1rcdq545da5og7cd5cu46.apps.googleusercontent.com');
-$google_client->setClientSecret('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');
-$google_client->setRedirectUri('http://localhost/web2125ki48veskerars03/googlelogin.php');
+
 $google_client->addScope('email');
 $google_client->addScope('profile');
 
